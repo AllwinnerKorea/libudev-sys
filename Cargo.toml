@@ -2,6 +2,8 @@
 name = "libudev-sys"
 version = "0.1.3"
 authors = ["Tae-il Lim <trlim@allwinnerkorea.com>"]
+links = "udev"
+build = "build.rs"
 
 [build-dependencies]
 bindgen = "0.26"
