@@ -10,6 +10,8 @@ fn main() {
     // The bindgen::Builder is the main entry point to bindgen,
     // and lets you build up options for the resulting bindings.
     let bindings = bindgen::Builder::default()
+        // distrust clang name mangling for proper linkage.
+        .trust_clang_mangling(false)
         // The input header we would like to generate bindings for.
         .header("wrapper.h")
         // Finish the builder and generate the bindings.
