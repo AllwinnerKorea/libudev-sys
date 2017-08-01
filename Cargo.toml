@@ -2,6 +2,7 @@
 name = "udev-sys"
 version = "0.1.0"
 authors = ["Tae-il Lim <trlim@allwinnerkorea.com>"]
+license = "MIT/Apache-2.0"
 links = "udev"
 
 [build-dependencies]
