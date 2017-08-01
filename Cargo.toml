@@ -5,4 +5,4 @@ authors = ["Tae-il Lim <trlim@allwinnerkorea.com>"]
 links = "udev"
 
 [build-dependencies]
-bindgen = "0.26"
+bindgen = "0.29"
